@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <script src="./index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <div class="nav-items-mob">
+      <svg
+        class="hamclose"
+        width="32"
+        height="31"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="#00001A" fill-rule="evenodd">
+          <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+          <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+        </g>
+      </svg>
+      <ul class="nav-list-mob">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/new">New</a></li>
+        <li><a href="/popular">Popular</a></li>
+        <li><a href="/trending">Trending</a></li>
+        <li><a href="/categories">Categories</a></li>
+      </ul>
+    </div>
+
+    <main class="main-container">
+      <nav class="nav-items">
+        <img
+          src="./assets/images/logo.svg"
+          width="65"
+          height="100"
+          alt="LOGO"
+          class="nav-logo"
+        />
+        <ul class="nav-list">
+          <li><a href="/home/">Home</a></li>
+          <li><a href="/new/">New</a></li>
+          <li><a href="/popular/">Popular</a></li>
+          <li><a href="/trending/">Trending</a></li>
+          <li><a href="/categories/">Categories</a></li>
+        </ul>
+        <div class="hamburg">
+          <svg
+            class="hamburgsvg"
+            width="40"
+            height="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
+        </div>
+      </nav>
+
+      <div class="parent-section">
+        <section class="left-container">
+          <div class="image-container">
+            <img
+              class="img-web"
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="web3 Image"
+            />
+          </div>
+
+          <div class="read-parent">
+            <h1 class="heading">The Bright Future of Web 3.0 ?</h1>
+            <div class="read-content">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="read-more">
+                <b> <a href="#">READ MORE</a></b>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-container">
+          <h1 class="right-cont-heading">New</h1>
+
+          <div class="other-news-section">
+            <h3 class="news-heading">Hydrogen VS Electric Cars</h3>
+            <p class="news-para">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <h3 class="news-heading">The Downsides of AI Artistry</h3>
+            <p class="news-para">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <h3 class="news-heading">Is VC Funding Drying Up?</h3>
+            <p class="news-para" id="no-border">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-parent"> 
+          <div class="card-one all">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="retro pcs"  class="image-cards">
+            <div class="text-written">
+              <h1 class="headings-new-num">01</h1>
+              <h2 class="headings-new">Reviving Retro PCs</h2>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="card-two all">
+            <img src="./assets/images/image-top-laptops.jpg" alt="top laptops" class="image-cards" >
+            <div class="text-written">
+              <h1 class="headings-new-num">02</h1>
+              <h2 class="headings-new">Top 10 Laptops of 2022</h2>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="card-three all">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="gaming growth" class="image-cards">
+            <div class="text-written">
+              <h1 class="headings-new-num">03</h1>
+              <h2 class="headings-new">The Growth of Gaming</h2>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    </main>
+  </body>
+</html>
