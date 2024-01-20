@@ -249,6 +249,12 @@ p {
   }
 }
 
+@media screen and (max-width: 900) {
+  .card-parent {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 580px) {
   .hamburg {
     display: inline-flex;
